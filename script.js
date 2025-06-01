@@ -1,4 +1,4 @@
-function sendMain(){
+function sendMail(){
     let parms = {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
@@ -8,3 +8,4 @@ function sendMain(){
     }
     emailjs.send("service_4x8h8sm","template_c0qf59z", parms).then(alert("Message Sent!"))
 }
+
